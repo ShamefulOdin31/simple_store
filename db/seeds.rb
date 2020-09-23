@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+for i in 0..676
+  new = Product.create(
+    :title => Faker::Commerce.product_name,
+    :price => Faker::Commerce.price,
+    :stock_qauntity => Faker::Number.number(digits: 2)
+  )
+  new.save
+end
