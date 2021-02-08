@@ -1,24 +1,7 @@
-# README
+# Simple Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was a intro assignment for my fullstack development class
 
-Things you may want to cover:
+The goal was to seed a local database using Faker, and then display that data on a Rails webpage. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I received a A+ on this assignment.
